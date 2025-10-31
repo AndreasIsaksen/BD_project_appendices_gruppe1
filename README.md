@@ -1,8 +1,20 @@
-# Branch Info
+# Repo information
+This repo is created by "Gruppe 1" as a solution for giving access to the relevant solution which has been created in regards to the project assignment for the the course "ITL25019-1 25H Big Data: lagring og bearbeiding"
 
-## zpln (Zeppelin Notebooks)
+### Members of "Gruppe 1"
+Andreas Isaksen  
+Jon Åsbjørn Hauge  
+Torgrim Aune
+
+## Branch information
+This is an overview of the branches found in this repo and its content.
+
+### zpln (Zeppelin Notebooks)
 Branch contains Zeppelin notebooks relevant for the project report. To run these files in a local docker environment, you'll have to download the relevant data files in the branch named data, which has to be placed with the correct directory hierarchy inside the sparkio directory in the docker setup.  
-The collective correct directory structure for all notebooks is:  
+
+### Data
+Branch contains relevant data which has been used to complete this projects assignments. These data files are crucial for the notebooks to work properly.
+The collective correct directory structure for all data files is:  
 \SPARKIO  
 ├───TLC  
 │   ├───mapZones  
@@ -15,10 +27,7 @@ The collective correct directory structure for all notebooks is:
 │   └───sykkel  
 └───værdata  
 
-## Data
-Branch contains relevant data which has been used to complete this projects assignments. These data files are crucial for the notebooks to work properly.
-
-## Enviroment (zip)
+### Enviroment (zip)
 Branch contains the last stable environment which was used to complete this project assignment without the data files for the project. This is mainly the environment that's given out one the course official school domain page, but with a configured YAML and a pre-defined directory hierarchy for the data files inside the sparkio directory.  
 Relevant directory structure for the environment:  
 Utviklingsmiljø Docker V3  
@@ -35,7 +44,7 @@ Utviklingsmiljø Docker V3
     │   └───sykkel  
     └───værdata  
 
-## Full setup (zip)
+### Full setup (zip)
 This branch contains a complete setup of all branches in one collective file. It's rather large since it also contains all data files which has been used in this project. When this file is unpacked you should be able to run the docker environment directly inside the folder "Utviklingsmiljø Docker V3". When the docker is up and running you should be able to import the Zeppelin notebooks from "http://localhost:8082/" or "your_local_IP_address:8082/" on a web browser.  
 Full directory structure for this download:  
 FullSetup  
