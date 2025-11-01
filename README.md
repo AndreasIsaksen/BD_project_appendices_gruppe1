@@ -10,7 +10,11 @@ Torgrim Aune
 This is an overview of the branches found in this repo and its content.
 
 ### zpln (Zeppelin Notebooks)
-Branch contains Zeppelin notebooks relevant for the project report. To run these files in a local docker environment, you'll have to download the relevant data files in the branch named data, which has to be placed with the correct directory hierarchy inside the sparkio directory in the docker setup.  
+Branch contains Zeppelin notebooks relevant for the project report.  
+The branch contains overall every Zeppelin notebook that's been made during this project.  
+The Zeppelin files stored in the directory named "Final" are the notebooks which has been fully tested and confirmed stable. These are the notebooks which are refereed to in the project report.  
+Notebooks which are found outside the "Final" directory are notebooks created in accordance with the project or tests for environment experimenting. These are not proven stable, and might return errors if run. These files exist mainly for documental purposes and should not be considered as a part of the final product.  
+To run these files in a local docker environment, you'll have to download the relevant data files in the branch named data, which has to be placed with the correct directory hierarchy inside the sparkio directory in the docker setup.
 
 ### Data
 Branch contains relevant data which has been used to complete this projects assignments. These data files are crucial for the notebooks to work properly.
